@@ -45,9 +45,15 @@
     row-gap: 40px;
  }
 
- @media (max-width: 1250px) {
+ @media (max-width: 1350px) {
     .vid-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+ }
+
+ @media (max-width: 1150px) {
+    .vid-grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
  }
 
