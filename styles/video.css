@@ -63,11 +63,12 @@
     }
  }
 
- @media (max-width: 750px) {
+ @media (max-width: 800px) {
     .vid-grid {
         grid-template-columns: 1fr;
     }
  }
+
 
  .vid-stats-grid{
     display: grid;
